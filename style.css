@@ -1,3 +1,174 @@
 * {
-    font-family: 'Crete Round', serif;
+   font-family: 'Crete Round', serif;
+}
+
+/* responsive design */
+@media all and (max-width: 1024px) {
+   * {
+      font-size: 0.9em;
+   }
+   #liste_deroulante {
+      max-height: 400px;
+      overflow: scroll;
+   }
+   header h1 {
+      font-size: 1.5em;
+   }
+}
+
+/* general */
+html {
+   height: 100%;
+   background-image: url(images/14986_bis.jpg);
+   background-attachment: fixed;
+}
+
+body {
+   /*  <a href="https://fr.freepik.com/photos-vecteurs-libre/fond">Fond vecteur créé par starline - fr.freepik.com</a>  */
+   background-repeat: no-repeat;
+   height: 100%;
+}
+.haut_page {
+   float: right;
+   margin-top: 20em
+}
+
+/* grand conteneur */
+.conteneur_global {
+   background-image: url(images/910CV38t5XL._SL1500_bis.jpg);
+   width: 72%;
+   margin: auto;
+   height: 100%;
+}
+
+.block_accueil {
+   width: 40%;
+   height: 20em;
+   margin: 1em;
+   padding: 1em;
+   background-color: rgba(119,119,119,0.8);
+   display: inline-block;
+   color: white;
+}
+
+
+
+/* Header */
+header {
+   color: black;
+   text-align: center;
+   width: 100%;
+   margin: auto;
+   margin-bottom: 4em;
+}
+#logo1 {
+   float: left;
+   margin-top: -8em;
+}
+
+/* menu déroulant */
+#liste_deroulante {
+   padding: 10;
+   margin: 4em 0 0 -1.3em;
+   list-style: none;
+   text-align: center;
+   width: 10%;
+   min-width: 100px;
+   float: left;
+   position: fixed;
+}
+
+#liste_deroulante ul {
+   padding: 0;
+   margin: 10;
+   list-style: none;
+   text-align: center;
+}
+
+#liste_deroulante li {
+   background-image: -webkit-linear-gradient(top, #FFD101 0%, #333A40 100%);
+   border-radius: 0px;
+   margin-bottom: 0px;
+   box-shadow: 3px 3px 3px #777;
+   border: solid 1px #333A40
+}
+
+#liste_deroulante li li {
+   max-height: 0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius: 0;
+   background: #444;
+   box-shadow: none;
+   border: none;
+   margin: 0
+}
+
+#liste_deroulante a {
+   display: block;
+   text-decoration: none;
+   color: #fff;
+   padding: 8px 0;
+   font-family: 'Crete Round', serif;
+   font-size: 1.2em;
+}
+
+#liste_deroulante ul li a,
+#liste_deroulante li:hover li a {
+   font-size: 1em
+}
+
+#liste_deroulante li:hover {
+   background: #999
+}
+
+#liste_deroulante li li:hover {
+   background: #999;
+}
+
+#liste_deroulante ul li:last-child {
+
+   border: none;
+}
+
+#liste_deroulante li:hover li {
+   max-height: 15em;
+}
+
+/* Footer */
+#footer {
+   height: 2em;
+   display: flex;
+   justify-content: space-around;
+}
+
+.element{
+   display: inline-block;
+   color: white;
+   background-image: -webkit-linear-gradient(top, #999 0%, #333A40 100%);
+   padding: 1em;
+   padding-bottom: 1.7em;
+   width: 9em;
+   border-radius: 50em 50em 0 0;
+   text-align: center;
+}
+
+#footer li {
+   display: inline-block;
+}
+
+#footer a {
+   color: white;
+   text-decoration: none;
+}
+
+.img_lien {
+   padding: 0;
+}
+
+li ul li {
+   line-height: 1em;
+}
+.reseaux {
+   margin-left: -1em;
 }
