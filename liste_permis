@@ -5,75 +5,234 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css.css">
+    <style>
+        div a {
+            text-decoration: none;
+            color: white;
+        }
+
+        div ul {
+            font-size: 80%
+        }
+        .conteneur_global {
+            background-image: url(images/910CV38t5XL._SL1500_bis.jpg);
+            background-attachment: fixed;
+            width: 72%;
+            margin: auto;
+            height: auto;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .block_accueil {
+            width: 40%;
+            height: 15em;
+            margin: 10px;
+            padding: 20px;
+            background-color: rgba(119, 119, 119, 0.8);
+            color: white;
+            overflow: hidden;
+            box-shadow: 7px 7px 7px black;
+        }
+        html {
+   height: 100%;
+   background-image: url(images/14986_bis.jpg);
+   /*  <a href="https://fr.freepik.com/photos-vecteurs-libre/fond">Fond vecteur créé par starline - fr.freepik.com</a>  */
+   background-attachment: fixed;
+
+    </style>
 </head>
 
 <body>
-    <a href="#attes">
-        <h1>Attestation et brevet de sécurité routière</h1>
+    <header>
+        <h1>Bienvenue sur le site de l'APDSR</h1>
+        <p>L'association de Prévention des Dangers et Sécurité de la Route.</p>
+        <img src="images/even-Securite-Routiere.jpg" id="logo1" alt="logo sécurité routière">
+    </header>
+    <a class="haut_page" href="#">
+        <img src="images/up-arrow.png" width="60em">
     </a>
-    <a href="#permis_moto">
-        <h1>Permis moto</h1>
-    </a>
-    <a href="#permis_b">
-        <h1>Permis B(voiture ou quadricycle lourd) </h1>
-    </a>
-    <a href="#permis_transport_et_personnes">
-        <h1>Permis pour le transport de marchandises et de personnes</h1>
-    </a>
-    <h2 id="attes"> Attestation et brevet de sécurité routière</h2>
-    <ol>
-        <li>Attestation de sécurité routière</li>
-        <p>L'ASR est délivrée après un examen portant sur des connaissances théoriques. L'inscription se fait auprès d'un Greta. Si vous est né en 1988 ou après et que vous n'avez pas l'ASSR, vous devez détenir l'ASR pour passer la formation pratique du BSR correspondant à la catégorie AM du permis de conduire. L'ASR est également obligatoire pour obtenir un 1er titre de conduite si vous avez moins de 21 ans et que vous n'avez pas l'ASSR de 2e niveau<br><a href="https://www.service-public.fr/particuliers/vosdroits/F16511">plus de détails ici</a></p><br><br>
-        <li>attestation scolaire de sécurité routière</li>
-        <p>Les ASSR de 1er et 2e niveaux s'obtiennent dans le cadre d'un enseignement obligatoire des règles de sécurité routière. Elles sont délivrées pendant le temps scolaire après un contrôle des connaissances théoriques. Si vous est né en 1988 ou après, vous devez détenir une de ces attestations pour passer la formation pratique du BSR. L'ASSR de 2e niveau est obligatoire pour obtenir un 1er titre de conduite si vous avez moins de 21 ans.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F16548">plus de détails ici</a></p><br><br>
-        <li>brevet de sécurité routière(BSR),catégorie AM du permis de conduire</li>
-        <p>Le brevet de sécurité routière (BSR) correspond à la catégorie AM du permis de conduire. Il permet de conduire un cyclomoteur ou un quadricycle léger à moteur (voiturette). Pour l'obtenir, vous devez suivre une formation théorique (validée par l'ASSR de 1er ou de 2nd niveau ou l'ASR) et une formation pratique. Sa validité dépend de sa date d'obtention.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2890">plus de détails ici</a></p><br><br>
-    </ol>
-    <h2 id="permis_moto">Permis Moto</h2>
-    <ol>
-        <li>Permis A1 (permis 125cm3)</li>
-        <p>Passer son permis A1 (dit permis 125) permet de conduire une moto légère ou un 3 roues à moteur d'une puissance de 15 kW maximum. Vous devez remplir des conditions d'âge, de formation et de succès à un examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2832">plus de détails ici</a></p>
-        <li>Permis A2(-de 35KW)</li>
-        <p>Passer son permis A2 permet de conduire une moto d'une puissance n'excédant pas 35 kilowatts (kw) ou un 3 roues d'une puissance maximale de 15 kw. Vous devez remplir des conditions d'âge, de formation et de succès à l'examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F31083">plus de détails ici</a></p>
-        <li>Permis A(+ de 35KW)</li>
-        <p>Le permis A permet de conduire toutes les motos avec ou sans side-car et tous les 3 roues à moteur quelle que soit leur puissance. Vous ne pouvez pas passer le permis A directement. Il est obligatoire de passer d'abord le permis A2, d'avoir 2 ans de pratique, puis de suivre une formation complémentaire de 7 heures (le prix de la formation est libre et varie selon les motos-écoles)<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2830">plus de détails ici</a></p>
-    </ol>
-    <h2 id="permis_b">Permis B(voiture ou quaddricycle lourd)</h2>
-    <ol>
-        <li>apprentissage anticipé(à partir de 15 ans)</li>
-        <p>L'apprentissage anticipé de la conduite (AAC) est possible dès l'âge de 15 ans. Il concerne la catégorie B du permis de conduire. L'apprentissage comporte une 1ère phase de formation initiale, dispensée par l'auto-école, et une 2nde phase de conduite accompagnée d'au moins 1 an. À l'issue de cette période, vous pouvez vous présenter dès l'âge de 17 ans et demi aux épreuves pratiques du permis de conduire.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2826">plus de détails ici</a></p>
-        <li>Conduite encadrée(16 à 18 ans)</li>
-        <p>La conduite encadrée s'adresse aux jeunes scolarisés qui se destinent aux métiers de la route. Elle leur permet, après la réussite à l'examen du permis B dans le cadre de leur formation, de conduire en attendant la délivrance de leur permis à 18 ans.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F10036">plus de détails ici</a></p>
-        <li>Consuite supervisée(18 ans et plus)</li>
-        <p>L'apprentissage avec conduite supervisée est possible dès l'âge de 18 ans. Il concerne la catégorie B du permis de conduire. L'apprentissage comporte une 1ère phase de formation initiale dispensée par l'auto-école (code de la route + 20 heures de conduite minimum), et une 2nde phase de conduite supervisée avec un accompagnateur. Le choix pour la phase de conduite supervisée peut se faire après la formation initiale ou après avoir échoué à l'épreuve pratique de l'examen du permis.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F21012">plus de détails ici</a></p>
-        <li>Candidat libre</li>
-        <p>Vous pouvez ne pas faire appel à une auto-école pour passer l'examen du permis de la catégorie B (voiture) : vous pouvez vous inscrire seul en ligne pour obtenir un numéro d'enregistrement préfectoral harmonisé (NEPH). Ensuite, il faudra vous inscrire auprès d'un opérateur agréé pour obtenir une date pour passer l'examen du code. Enfin, pour passer l'épreuve pratique, vous devrez prendre contact avec le service chargé localement de l'organisation de l'épreuve.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2825">plus de détails ici</a></p>
-        <li>Permis B:Voiture ou Camionnette</li>
-        <p>Le permis B permet de conduire une voiture, attelée ou non d'une remorque. Pour obtenir le permis B, vous devez avoir au moins 18 ans. Si c'est votre 1er permis et que vous avez moins de 21 ans, vous devez avoir l'ASSR 2 ou l'ASR. La demande du permis peut toutefois être faite dès 16 ans (ou 15 ans dans le cadre de l'apprentissage anticipé de la conduite). Après avoir suivi une formation, le permis vous est délivré si vous réussissez un examen (code et conduite).<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2828">plus de détails ici</a></p>
-        <li>Permis B1 : quadricycle lourd à moteur</li>
-        <p>Le permis B1 permet de conduire un quadricycle lourd à moteur. Son obtention est soumise à des conditions d'âge, de formation et de réussite à un examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2833">plus de détails ici</a></p>
-        <li>Permis BE : voiture + remorque de plus de 750 kg</li>
-        <p>Le permis BE permet de conduire une voiture attelée d'une remorque dont le poids dépasse 750 kg. Son obtention est soumise à des conditions d'âge, de catégorie de permis déjà obtenue, de formation et de réussite à un examen<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2845">plus de détails ici</a></p>
-    </ol>
-    <h2 id="permis_transport_et_personnes">Permis pour le transport de marchandises et de personnes</h2>
-    <ol>
-        <li>Permis C (+ de 7,5 t)</li>
-        <p>Le permis C autorise la conduite des véhicules affectés au transport de marchandises ou de matériel dont le poids total autorisé en charge (PTAC) est supérieur à 7,5 tonnes. Son obtention est soumise à des conditions notamment d'âge, de catégorie de permis déjà obtenue ou de réussite à un examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2843">plus de détails ici</a></p>
-        <li>Permis CE (+ de 7,5 t avec remorque)</li>
-        <p>Le permis CE autorise la conduite des véhicules de la catégorie C attelés d'une remorque ou d'une semi-remorque dont le PTAC dépasse 750 kg. Son obtention est soumise à des conditions notamment d'âge, de catégorie de permis déjà obtenue, de contrôle médical, de formation et de réussite à un examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2846">plus de détails ici</a></p>
-        <li>Permis C1 (entre 3,5 t et 7,5 t)</li>
-        <p>Le permis C1 permet de conduire des véhicules dont le PTAC est compris entre 3,5 et 7,5 tonnes et auxquels peut être attelée une remorque de moins de 750 kg. Son obtention est soumise à des conditions notamment d'âge, de catégorie de permis déjà obtenue, de contrôle médical, de formation et de réussite à un examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F31121">plus de détails ici</a></p>
-        <li>Permis C1E (entre 3,5 t et 7,5 t avec remorque)</li>
-        <p>Le permis de conduire de la catégorie C1E permet de conduire un véhicule de la catégorie C1 lorsque la remorque ou la semi-remorque a un PTAC supérieur à 750 kg et ceux de la catégorie B lorsque la remorque ou la semi-remorque a un PTAC supérieur à 3500 kg. Son obtention est soumise notamment à des conditions d'âge, de catégorie de permis déjà obtenue, de contrôle médical, de formation et de réussite à un examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F31124">plus de détails ici</a></p>
-        <li>Permis D (transport + de 8 passagers)</li>
-        <p>Le permis D autorise la conduite des véhicules affectés au transport de personnes comportant plus de 8 places assises outre le siège du conducteur. Son obtention est soumise à des conditions notamment d'âge, de catégorie de permis déjà obtenue, de contrôle médical, de formation et de réussite à un examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2844">plus de détail ici</a></p>
-        <li>Permis DE (transport + 8 passagers avec remorque)</li>
-        <p>Le permis de conduire de la catégorie DE permet de conduire un véhicule affecté au transport de personnes (catégorie D) auquel est attelée une remorque dont le poids total autorisé en charge (PTAC) dépasse 750 kg. Son obtention est soumise à des conditions notamment d'âge, de catégories de permis déjà obtenues, de contrôle médical, de formation et de réussite à un examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F2848">plus de détails ici</a></p>
-        <li>Permis D1 (transport de 16 passagers maximum)</li>
-        <p>Le permis D1 autorise la conduite des véhicules affectés au transport de personnes comportant au plus 16 places assises outre le siège du conducteur et mesurant jusqu'à 8 mètres de long. Son obtention est soumise à des conditions notamment d'âge, de catégorie de permis déjà obtenue, de contrôle médical, de formation et de réussite à un examen<br><a href="https://www.service-public.fr/particuliers/vosdroits/F31128">plus de détails ici</a></p>
-        <li>Permis D1E (transport de 16 passagers maximum avec remorque)</li>
-        <p>Le permis D1E autorise la conduite des véhicules de la catégorie D1 auxquels est attelée une remorque dont le poids total autorisé en charge (PTAC) dépasse 750 kg. Son obtention est soumise à des conditions notamment d'âge, de catégorie de permis déjà obtenue, de contrôle médical, de formation et de réussite à un examen.<br><a href="https://www.service-public.fr/particuliers/vosdroits/F31129">plus de détail ici</a></p>
-    </ol>
+    <nav>
+        <ul id="liste_deroulante">
+            <li><a href="#">Accueil</a>
+                <ul>
+
+                    <li><a href="#">lien sous menu 1</a></li>
+                    <li><a href="#">lien sous menu 1</a></li>
+                    <li><a href="#">lien sous menu 1</a></li>
+                    <li><a href="#">lien sous menu 1</a></li>
+                </ul>
+
+
+            </li>
+            <li><a href="#">Panneaux</a>
+                <ul>
+                    <li><a href="#">Lien sous menu 2_1</a></li>
+                    <li><a href="#">Lien sous menu 2_1</a></li>
+                    <li><a href="#">Lien sous menu 2_3</a></li>
+                    <li><a href="#">Lien sous menu 2_4</a></li>
+                    <li><a href="#">Lien sous menu 2_5</a></li>
+                    <li><a href="#">Lien sous menu 2_6</a></li>
+                    <li><a href="#">Lien sous menu 2_7</a></li>
+                    <li><a href="#">Lien sous menu 2_8</a></li>
+                    <li><a href="#">Lien sous menu 2_9</a></li>
+                    <li><a href="#">Lien sous menu 2_10</a></li>
+                </ul>
+
+            </li>
+            <li><a href="#">Danger</a>
+                <ul>
+                    <li><a href="#">Lien sous menu 3</a></li>
+                    <li><a href="#">Lien sous menu 3</a></li>
+                    <li><a href="#">Lien sous menu 3</a></li>
+                    <li><a href="#">Lien sous menu 3</a></li>
+                    <li><a href="#">Lien sous menu 3</a></li>
+                </ul>
+
+            </li>
+            <li><a href="#">Permis</a>
+                <ul>
+                    <li><a href="liste_permis.html">Liste des Permis</a></li>
+                    <li><a href="permis_1_euro.html">Permis à 1 euros</a></li>
+                    <li><a href="Permis.html">Détails des Permis</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Réviser le code</a>
+                <ul>
+                    <li><a href="#">Lien sous menu 5</a></li>
+                </ul>
+            </li>
+            <li><a href="annuaire.html">Annuaire</a>
+                <ul>
+                    <li><a href="annuaire.html">Annuaire</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a>
+                <ul>
+                    <li><a href="#">Lien sous menu 7</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="conteneur_global">
+        <!-- c'est ici que l'on va mettre le contenu du site -->
+        <section class="block_accueil">
+            <a href="Permis.html#attes">
+                <h2> Attestation et brevet de sécurité routière</h2>
+            </a>
+            <ul>
+                <a href="Permis.html#attes01" #>
+                    <li>Attestation de sécurité routière</li>
+                </a>
+                <a href="Permis.html#attes02">
+                    <li>attestation scolaire de sécurité routière</li>
+                </a>
+                <a href="Permis.html#attes03">
+                    <li>brevet de sécurité routière(BSR),catégorie AM du permis de conduire</li>
+                </a>
+            </ul>
+        </section>
+        <section class="block_accueil">
+            <a class="permis_moto" href="Permis.html#permis_moto">
+                <h2>Permis Moto</h2>
+            </a><br>
+            <ul>
+                <a href="Permis.html#permis_moto01">
+                    <li>Permis A1 (permis 125cm3)</li>
+                </a>
+                <a href="Permis.html#permis_moto02">
+                    <li>Permis A2(-de 35KW)</li>
+                </a>
+                <a href="Permis.html#permis_moto03">
+                    <li>Permis A(+ de 35KW)</li>
+                </a>
+            </ul>
+        </section>
+        <section class="block_accueil">
+            <a class="permis_b" href="#">
+                <h2>Permis B(voiture ou quaddricycle lourd)</h2>
+            </a>
+            <ul>
+                <a href="Permis.html#permis_b01">
+                    <li>apprentissage anticipé(à partir de 15 ans)</li>
+                </a>
+                <a href="Permis.html#permis_b02">
+                    <li>Conduite encadrée(16 à 18 ans)</li>
+                </a>
+                <a href="Permis.html#permis_b03">
+                    <li>Consuite supervisée(18 ans et plus)</li>
+                </a>
+                <a href="Permis.html#permis_b04">
+                    <li>Candidat libre</li>
+                </a>
+                <a href="Permis.html#permis_b05">
+                    <li>Permis B:Voiture ou Camionnette</li>
+                </a>
+                <a href="Permis.html#permis_b06">
+                    <li>Permis B1 : quadricycle lourd à moteur</li>
+                </a>
+            </ul>
+        </section>
+        <section class="block_accueil">
+            <a class="permis_transport_marchandises" href="Permis.html#permis_transport_et_personnes">
+                <h2>Permis pour le transport de marchandises et de personnes</h2>
+            </a>
+            <div>
+                <ul>
+                    <a href="Permis.html#permis_transport_et_personnes01">
+                        <li>Permis C (+ de 7,5 t)</li>
+                    </a>
+                    <a href="Permis.html#permis_transport_et_personnes02">
+                        <li>Permis CE (+ de 7,5 t avec remorque)</li>
+                    </a>
+                    <a href="Permis.html#permis_transport_et_personnes03">
+                        <li>Permis C1 (entre 3,5 t et 7,5 t)</li>
+                    </a>
+                    <a href="Permis.html#permis_transport_et_personnes04">
+                        <li>Permis C1E (entre 3,5 t et 7,5 t avec remorque)</li>
+                    </a>
+                    <a href="Permis.html#permis_transport_et_personnes05">
+                        <li>Permis D (transport + de 8 passagers)</li>
+                    </a>
+                    <a href="Permis.html#permis_transport_et_personnes06">
+                        <li>Permis DE (transport +8 passagers avec remorque)</li>
+                    </a>
+                    <a href="Permis.html#permis_transport_et_personnes07">
+                        <li>Permis D1 (transport de 16 passagers maximum)</li>
+                    </a>
+                    <a href="Permis.html#permis_transport_et_personnes08">
+                        <li>Permis D1E (transport de 16 passagers maximum avec remorque)</li>
+                    </a>
+
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <nav>
+            <ul id="footer">
+                <li class="element">C&oslash;pyright APDSR</li>
+                <li class="element">
+                    <a href="#" title="Cliquez pour voir les mentions légales">Mention légales</a>
+                </li>
+                <li class="element">
+                    <ul class="reseaux">
+                        <li class="reseaux">
+                            <a href="https://www.facebook.com/" title="lien vers Facebook" target="_blank" class="img_lien">                                <img src="images/facebook.png" alt="Facebook" width="20px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/" title="lien vers Twitter" target="_blank">
+                                <img src="images/twitter.png" alt="Facebook" width="20px" class="img_lien">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
