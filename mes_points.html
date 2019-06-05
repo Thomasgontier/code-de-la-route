@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            height: 100%
+        }
+
+        @media all and (max-width: 720px) {
+            .conteneur_global {
+                width: 95%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            .block_accueil {
+                width: 85%;
+                height: auto;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+
+            }
+
+            .telepoint {
+                display: flex;
+                justify-content: center;
+                width: 20%;
+
+
+            }
+
+
+        }
+
+        aside {
+            display: contents;
+        }
+
+        }
+
+
+
+        .conteneur_global {
+            width: 75%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-self: center;
+        }
+
+        .block_accueil {
+            width: 85%;
+            height: inherit;
+            margin: 1em 1em 1em 1em;
+            display: inline-block;
+        }
+
+        h2 {
+            display: flex;
+            justify-content: flex-start;
+            background-color: #FFF101;
+            color: black;
+        }
+
+        .telepoint {
+            display: flex;
+            justify-content: flex-start;
+            width: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="anim">
+            <h1>Bienvenue sur le site de l'APDSR</h1>
+            <p>L'association de Prévention des Dangers et Sécurité de la Route.</p>
+        </div>
+        <img src="images/even-Securite-Routiere.jpg" id="logo1" alt="logo sécurité routière">
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Accueil">Accueil</a></li>
+                <li><a href="#" title="Panneaux">Panneaux</a></li>
+                <li><a href="#" title="Dangers">Danger</a></li>
+                <li><a href="liste_permis.html" title="Permis">Permis</a></li>
+                <li><a href="#" title="Réviser le code">Le code</a></li>
+                <li><a href="annuaire.html" title="Annuaire">Annuaire</a></li>
+                <li><a href="#" title="Contacts">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <a class="haut_page" href="#" title="Haut de page">
+        <img src="images/up-arrow.png" width="50em">
+    </a>
+    <nav class="menu">
+        <a href="#" id="menu-icon"></a>
+        <ul id="liste_deroulante">menu
+            <li><a href="index.html" title="Accueil">Accueil</a></li>
+
+            <li><a href="#" title="Panneaux">Panneaux</a></li>
+
+            <li><a href="#" title="Dangers">Dangers</a></li>
+
+            <li><a href="liste_permis.html" title="Permis">Permis</a></li>
+
+            <li><a href="#" title="Réviser le code">Le code</a></li>
+            <li><a href="annuaire.html" title="Annuaire">Annuaire</a></li>
+            <li><a href="#" title="Contacts">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="conteneur_global">
+        <!-- c'est ici que l'on va mettre le contenu du site -->
+        <section class="block_accueil">
+            <h2>Mes points</h2>
+            <a class="telepoint" href="https://tele7.interieur.gouv.fr/tlp/"><img src="permis_a_point/telepoint.jpg" alt="telepoint"></a>
+            <p>Le permis de conduire est constitué au plus d’un capital de 12 points.
+                En cas d’infraction au Code de la route (contravention ou délit selon la gravité) ou en cas de responsabilité dans un accident corporel, un retrait de point(s) est effectué.</p>
+
+            <h2>Connaître son capital de points</h2>
+            <p> Tout conducteur peut connaître le solde de points de son permis de conduire en consultant le service Télépoints sur le site du ministère de l’Intérieur.
+                Pour y accéder, le titulaire du permis doit être en possession de son numéro de dossier et de son code confidentiel qui figurent sur le relevé intégral de son dossier. Ce document est délivré par les préfectures et certaines sous-préfectures :</p>
+            <ul>
+
+                <li>Soit sur place, sur présentation d’une pièce d’identité en cours de validité ;</li>
+                <li>Soit par courrier, en joignant à la demande les photocopies du permis de conduire et d’une pièce d’identité en cours de validité, ainsi qu’une enveloppe affranchie au tarif recommandé avec demande d’avis de réception.</li>
+            </ul>
+            <p>Ces identifiants figurent également sur les lettres adressées en recommandé par le ministère de l'Intérieur.</p>
+            <h2>Retrait de point(s)</h2>
+            <p>Lors du constat d’une infraction, les forces de l’ordre vous informent du principe du retrait de point(s).
+                Le retrait de point(s) est effectif dès que survient l'un des éléments suivants : </p>
+            <ul>
+                <li>Le paiement de l’amende forfaitaire ;</li>
+                <li>L’émission du titre exécutoire d’une amende forfaitaire majorée ;</li>
+                <li>L'exécution d'une composition pénale ;</li>
+                <li>La condamnation définitive.</li>
+            </ul>
+            <p>Une seule infraction peut faire perdre jusqu’à 6 points.
+                Plusieurs infractions constatées simultanément peuvent faire perdre 8 points au maximum.</p>
+
+            <h2> Qui est informé ?</h2>
+
+            <p>Le retrait de point(s) est signifié par lettre simple et reste confidentiel. Il n’est communiqué ni à l’employeur ni à l’assureur.</p>
+            <h2>6 points retirés</h2>
+
+            <p>Lorsque votre capital de points atteint ou franchit le seuil des 6 points, un courrier recommandé vous en alerte et vous incite à suivre un stage de sensibilisation à la sécurité routière permettant de récupérer jusqu’à 4 points.
+                Perte de la totalité des points.</p>
+            <h2>Perte de la totalité des points</h2>
+
+            <p>La perte totale des points entraîne l’invalidation du permis de conduire pour une durée de six mois. L’intéressé est informé de la perte de son droit à conduire par courrier recommandé. Il doit rapporter son permis à la préfecture de son département de résidence dans un délai de dix jours.
+                Le fait de perdre deux fois la totalité de ses points sur une période de cinq ans a pour conséquence de porter à un an le délai d’interdiction d’obtenir un nouveau permis de conduire.
+                Lorsque le permis a été invalidé en raison d’une perte totale de points, le nouveau permis obtenu est un permis probatoire doté d’un capital de six points.</p>
+            <h2>Une démarche pédagogique</h2>
+
+            <p>S’inscrivant dans une démarche avant tout pédagogique, l’objectif du système du permis à point est d’éviter l’infraction et sa récidive. La perte de point(s) est une alerte qui amène le conducteur à prendre conscience de la nécessité d’une conduite raisonnable et d’un comportement responsable au volant.</p>
+
+            <p>En effet, loin d'être une sanction irrémédiable, un ou plusieurs points perdus peuvent être simplement récupérés par un strict respect des règles du code de la route.</p>
+            <h2>Reconstituer son capital points.</h2>
+
+            Les points perdus peuvent être récupérés de deux manières :
+
+            <ol>
+                <li>En adoptant un comportement responsable au volant.</li>
+                <ul>
+                    <li>en cas de perte d’un seul point, celui-ci est réattribué après 6 mois sans infraction ;</li>
+                    <li>en cas de perte de plusieurs points, ceux-ci sont réattribués après deux ou trois ans* sans nouveau retrait de point(s).</li>
+                </ul>
+                <li>En suivant un stage de sensibilisation à la sécurité routière. 4 points maximum peuvent être récupérés.</li>
+            </ol>
+
+            * Trois ans si l'une des infractions ayant entraîné un retrait de points est un délit ou une contravention de la quatrième ou de la cinquième classe.
+            <h2> Stage de sensibilisation à la sécurité routière</h2>
+
+            <p> Le stage dure deux jours consécutifs et est dispensé par un établissement agréé. Il est payant et coûte environ 250 €. Un stage peut être suivi tous les ans. Le suivi d'un stage permet de récupérer des points uniquement s'il reste au moins 1 point sur le permis de conduire. A zéro point, il est trop tard.</p>
+
+            <p>Pour s'inscrire au stage, il faut se rendre en préfecture pour connaître les centres agréés ou consulter le site Internet de votre préfecture.</p>
+            <h2> Après invalidation</h2>
+
+            <p> Si le permis a été invalidé, il ne suffit pas simplement de le repasser et de réussir les épreuves. Le conducteur doit également être reconnu médicalement apte à la conduite, après un examen médical et un examen psychotechnique (aptitudes visuelles, physiques…).</p>
+            <h2>Retrouver un nouveau permis</h2>
+
+            <p>Si le permis de conduire invalidé avait moins de trois ans, l’épreuve théorique et l’épreuve pratique sont obligatoires.</p>
+
+            <p> Si le permis de conduire invalidé avait plus de trois ans, seule l’épreuve théorique (le "code") est à repasser, à condition de s’y inscrire moins de neuf mois après la restitution de l’ancien permis à la préfecture, sous peine de devoir repasser également l’épreuve pratique (la conduite) et les épreuves de toutes les autres catégories de permis éventuellement détenues initialement par l’intéressé.</p>
+            <h2>Démarches</h2>
+
+            <p>Toutes les démarches peuvent être effectuées pendant le délai d'invalidation de six mois : examen médical et psychotechnique, inscription à l'examen et passage des épreuves (code et conduite) du permis de conduire.</p>
+        </section>
+    </div>
+    <footer>
+        <nav>
+            <ul id="footer">
+                <li class="element">C&oslash;pyright APDSR</li>
+                <li class="element">
+                    <a href="#" title="Cliquez pour voir les mentions légales">Mention légales</a>
+                </li>
+                <li class="element">
+                    <ul class="reseaux">
+                        <li class="reseaux">
+                            <a href="https://www.facebook.com/" title="lien vers Facebook" target="_blank" class="img_lien"> <img src="images/facebook.png" alt="Facebook" width="20px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/" title="lien vers Twitter" target="_blank">
+                                <img src="images/twitter.png" alt="Facebook" width="20px" class="img_lien">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

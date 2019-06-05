@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media all and (max-width: 720px) {
+            .conteneur_global {
+                width: 95%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            .block_accueil {
+                width: 85%;
+                height: auto;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+
+            }
+                   
+            
+              }
+
+            aside {
+                display: contents;
+            }
+
+        }
+
+        html {
+            height: 100%
+        }
+
+        .conteneur_global {
+            width: 75%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-self: center;
+        }
+
+        .block_accueil {
+            width: 85%;
+            height: inherit;
+            margin: 8em 1em 1em 1em;
+            display: inline-block;
+        }
+
+        h2 {
+            display: flex;
+            justify-content: flex-start;
+            background-color: #FFF101;
+            color: black;
+        }
+
+        .anim {
+            animation: none;
+        }
+
+        aside {
+            width: 25%;
+            letter-spacing: 1px;
+            padding-left: .5rem;
+            margin-left: .5rem;
+            float: right;
+            box-shadow: inset 5px 0 5px -5px black;
+            font-style: italic;
+            color: yellow;
+
+        }
+
+        #rose {
+            width: auto;
+            display: flex;
+            align-content: flex-end;
+            justify-content: flex-end;
+
+        }
+
+        .nv_permis {
+            width:40%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="anim">
+            <h1>Bienvenue sur le site de l'APDSR</h1>
+            <p>L'association de Prévention des Dangers et Sécurité de la Route.</p>
+        </div>
+        <img src="images/even-Securite-Routiere.jpg" id="logo1" alt="logo sécurité routière">
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Accueil">Accueil</a></li>
+                <li><a href="#" title="Panneaux">Panneaux</a></li>
+                <li><a href="#" title="Dangers">Danger</a></li>
+                <li><a href="liste_permis.html" title="Permis">Permis</a></li>
+                <li><a href="#" title="Réviser le code">Le code</a></li>
+                <li><a href="annuaire.html" title="Annuaire">Annuaire</a></li>
+                <li><a href="#" title="Contacts">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <a class="haut_page" href="#" title="Haut de page">
+        <img src="images/up-arrow.png" width="50em">
+    </a>
+    <nav class="menu">
+        <a href="#" id="menu-icon"></a>
+        <ul id="liste_deroulante">menu
+            <li><a href="index.html" title="Accueil">Accueil</a></li>
+
+            <li><a href="#" title="Panneaux">Panneaux</a></li>
+
+            <li><a href="#" title="Dangers">Dangers</a></li>
+
+            <li><a href="liste_permis.html" title="Permis">Permis</a></li>
+
+            <li><a href="#" title="Réviser le code">Le code</a></li>
+            <li><a href="annuaire.html" title="Annuaire">Annuaire</a></li>
+            <li><a href="#" title="Contacts">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="conteneur_global">
+        <!-- c'est ici que l'on va mettre le contenu du site -->
+        <section class="block_accueil">
+            <h2>Le permis à points</h2>
+            <aside>Découvrez les autres spécificitées du permis à points.
+                <ul>
+                    <li><a href="mes_points.html">Mes points</a></li>
+                </ul>
+            </aside>
+            <p>
+                Le permis de conduire est doté d’un capital maximal de 12 points, celui-ci étant acquis de manière progressive au cours de la période probatoire, le titulaire dispose initialement de 6 points. Le nombre de points est réduit automatiquement à la suite d’une ou plusieurs infractions pour lesquelles le retrait est prévu par le code de la route.
+                Son objectif est avant tout de responsabiliser les conducteurs sur les voies de circulation et de pénaliser ceux dont les comportements peuvent mettre en danger la sécurité des autres usagers de la route.</p>
+            <h2>Un permis de conduire européen</h2>
+           
+            <img class="nv_permis" src="permis_a_point/nouveau-permis-europeen.jpg" alt="permis_europeen"> <aside class="nv_permis_text" style=color:white>
+                Depuis le 19 janvier 2013, tous les pays membres de l’Union européenne ont harmonisé les règles d'obtention du permis de conduire dont le format et les catégories détenues par son titulaire sont identiques.<br>
+            </aside>
+
+            <h2> Conduire n’est pas anodin.</h2>
+            <p> C’est une responsabilité que prend le conducteur vis-à-vis de lui-même et des autres. . Mis en place le 1er juillet 1992, en application de la loi du 10 juillet 1989 relative à diverses dispositions en matière de sécurité routière et en matière de contraventions, le permis à points est conçu comme un appel à la vigilance permanente du conducteur. Le permis de conduire dont il est détenteur peut en effet être annulé lorsque les infractions qu'il a commises ont rendu son solde égal à zéro.</p>
+
+            <h2>Nouveau format</h2>
+
+            <p>Le « permis rose » (au format 3 volets) a été remplacé par une carte plastifiée de la tail</p>
+
+            <h2> Titulaires de l’ancien permis ?</h2>
+            <p> Si vous êtes toujours en possession du « permis rose » (au format 3 volets) c’est que vous avez passé votre permis avant 2013, que vous ne l’avez pas perdu et que vous n’y avez pas ajouté de nouvelles catégories. Les permis délivrés avant le 19 janvier 2013 et qui ne sont pas soumis à une vérification périodique de l'aptitude médicale de son détenteur restent valides jusqu’en 2033. Il est donc inutile de demander le renouvellement de son permis avant sa date d’expiration.</p>
+
+            <h2>Fonctionnement du permis à points</h2>
+            <p> Le permis de conduire est constitué au plus d’un capital de 12 points. En cas d’infraction au code de la route (contravention ou délit selon la gravité) , un retrait de point(s) est effectué. Plus l’infraction est grave, plus le nombre de points retirés est important. Par exemple, l’usage du téléphone au volant peut vous faire perdre 3 points ; un excès de vitesse entre 30 et 40 km/h : 3 points ; la conduite avec une alcoolémie supérieure ou égale à 0,5 g/l de sang : 6 points. Attention, dans le cadre d’un permis probatoire, certains délits, comme une alcoolémie supérieure ou égale à 0,2 g/l, entraînent un retrait de 6 points et peuvent ainsi invalider le permis de conduire dès la première année d’obtention.</p>
+
+            <h2>Tout savoir sur le capital point et le retrait.</h2>
+            <p> S’inscrivant avant tout dans une démarche pédagogique, le système du permis à points a pour objectif d’éviter l’infraction et sa récidive. Une infraction au code de la route étant à l'origine de 9 accidents sur 10 la perte de point(s) est une alerte qui amène le conducteur à prendre conscience de la nécessité d’une conduite raisonnable.
+                Loin d’être une sanction irréversible, un ou plusieurs points perdus peuvent être simplement récupérés par un strict respect des règles du code de la route. En 2016, 3,3 millions de conducteurs ont récupéré leurs 12 points après 2 ou 3 ans sans infraction.
+                Depuis son instauration, le permis à points a contribué à réduire de moitié le nombre de personnes tuées sur la route.</p>
+
+            <h2>Les catégories</h2>
+            <p> Les différentes catégories de permis de conduire correspondent aux types de véhicules (deux, quatre roues, poids total hors charge, transports de marchandises ou de voyageurs) qu’il est possible de conduire.</p>
+
+            <h2>La catégorie AM</h2>
+            <p> La catégorie AM, permet de conduire dès 14 ans des cyclomoteurs (motocyclettes de moins de 50 cm3) et des voiturettes. Il est délivré à l’issue d’une formation de 7 h contre 5 auparavant. Cette catégorie est la seule exclue du régime de permis à points.</p>
+
+            <h2> La catégorie A1</h2>
+            <p> La catégorie A1, permet de conduire des motocyclettes de 50 à 125 cm³ dès l’âge de 16 ans.</p>
+
+            <h2> La catégorie A2</h2>
+            <p> La catégorie A2, est destiné à tous les conducteurs, dès l’âge de 18 ans, de motocyclettes, avec ou sans side-car, d’une puissance n’excédant pas 35 kW et dont le rapport puissance/poids est inférieur à 0,2 kW/kg. Ces motocyclettes ne doivent pas être issues d’un modèle développant plus de 70 kW. Le permis A2 est également accessible aux deux-roues automatiques.</p>
+
+            <h2> La catégorie A</h2>
+            <p> La catégorie A, est délivrée aux titulaires de la catégorie A2 du permis de conduire depuis plus de deux ans et qui peuvent attester avoir suivi une formation de 7h. Cette catégorie permet de conduire une motocyclette avec ou sans side-car dont la puissance n'excède pas 73,6 kW, ainsi que les tricycles sans limitation de puissance et les quadricycles à moteur de puissance maximum de 15 kW.</p>
+
+            <h2>La catégorie B</h2>
+            <p> La catégorie B, autorise, dès l’âge de 18 ans, la conduite :
+
+                des véhicules dont le PTAC (poids total autorisé en charge) est inférieur ou égal à 3,5 tonnes ;
+                un véhicule sur lequel peut être attelée une remorque dont le PTAC est inférieur ou égal à 750 kg ;
+
+                <h2>La catégorie C</h2>
+                <p>La catégorie C, concerne les véhicules de plus de 3,5 tonnes. Il faut être titulaire de la catégorie B, et pour les catégories C et CE avoir au moins l’âge de 21 ans.<br>
+
+                    La catégorie C autorise la conduite des véhicules affectés au transport de marchandises ou de matériel dont le PTAC (poids total en charge) est supérieur à 3,5 t.
+                    La catégorie CE permet, en outre, d'atteler à ce type de véhicule une remorque, dont le PTAC est supérieur à 750 Kg, Il faut être titulaire du permis C.
+                    Il existe deux autres catégories poids lourds pour des véhicules dont le PTAC est limité (entre 3,5 et 7,5 t) et que l'on peut passer à partir de 18 ans :</p>
+
+                <p>Le permis C1 : pour les véhicules dont le PTAC (poids total en charge) est compris entre 3,5 t et 7,5 t, sans compter le chauffeur. Une remorque dont le PTAC est inférieur à 750 kg peut être attelée à ce véhicule.Il faut être titulaire de la catégorie B du permis de conduire.
+                    Le permis C1E : pour atteler, à ce type de véhicule, une remorque dont le PTAC est supérieur à 750 kg. Pour le passer, il faut être titulaire du permis C1.</p>
+                <h2> La catégorie D</h2>
+                <p>La catégorie D permet de conduire des véhicules affectés au transport des personnes. Pour pouvoir prétendre à cette catégorie, il faut être titulaire de la catégorie B et avoir au moins 24 ans (21 ans en cas de formation professionnelle ). La catégorie D autorise la conduite d’un véhicule comportant plus de 8 places assises (sans compter celle du conducteur) ; à ce véhicule peut être attelée une remorque dont le poids total autorisé en charge (PTAC) n'excède pas 750 kg. Conditions: être titulaire de la catégorie B du permis de conduire et avoir au moins 24 ans.</p>
+
+                <p>Le permis DE : même type de véhicule que précédemment cité, mais auquel peut être attelée une remorque dont le poids total autorisé en charge (PTAC) est supérieur à 750 kg.
+                    Le permis D1 : pour des véhicules comportant au plus 16 places assises (sans compter celle du conducteur) et mesurant 8 mètres de long ; à ces véhicules peut être attelée une remorque dont le poids total autorisé en charge (PTAC) n'excède pas 750 kg.
+                    Le permis D1E : pour les mêmes véhicules autorisés par le permis D1, mais auxquels peut être attelée une remorque dont le PTAC est supérieur à 750 kg.</p>
+        </section>
+    </div>
+    <footer>
+        <nav>
+            <ul id="footer">
+                <li class="element">C&oslash;pyright APDSR</li>
+                <li class="element">
+                    <a href="#" title="Cliquez pour voir les mentions légales">Mention légales</a>
+                </li>
+                <li class="element">
+                    <ul class="reseaux">
+                        <li class="reseaux">
+                            <a href="https://www.facebook.com/" title="lien vers Facebook" target="_blank" class="img_lien"> <img src="images/facebook.png" alt="Facebook" width="20px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/" title="lien vers Twitter" target="_blank">
+                                <img src="images/twitter.png" alt="Facebook" width="20px" class="img_lien">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body></html>
