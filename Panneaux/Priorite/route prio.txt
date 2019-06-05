@@ -1,0 +1,4 @@
+Les panneaux de signalisation AB6 et AB7 avertissent du début ou de la fin du caractère prioritaire d’une route, soit1 :
+
+    il s'agit d'une route classée à grande circulation située hors agglomération ou en agglomération et que sa priorité est maintenue ;
+    soit un arrêté de circulation a été pris par l'autorité de police pour la classer « route prioritaire ».

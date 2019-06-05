@@ -1,0 +1,24 @@
+Les panneaux de signalisation français se répartissent en différents types :
+
+    Type A – Panneaux de danger (29 panneaux)
+    Type AB - Panneaux d'intersection et de priorité (9 panneaux)
+    Type B - Panneaux de prescription se subdivisant en : Panneaux d'interdiction - Panneaux d'obligation - Panneaux de fin de prescription. (88 panneaux)
+    Type C - Panneaux d'indications utiles pour la conduite des véhicules (52 panneaux)
+    Type CE - Panneaux d'indication d'installations pouvant être utiles aux usagers de la route (39 panneaux)
+    Type D - Panneaux de direction (56 panneaux)
+    Type Dp - Panneaux de jalonnement piétonnier (4 panneaux)
+    Type Dv - Panneaux de jalonnement des aménagements cyclables (13 panneaux)
+    Type Dc - Panneaux de signalisation d’information locale (2 panneaux)1.
+    Type E - Panneaux de localisation (26 panneaux2)
+    Type EB - Panneaux de début et de fin d'agglomération (2 panneaux)
+    Type F relatif aux bornes de jalonnement kilométrique et hectométrique qui figurait dans l'arrêté du 24 novembre 1967 initial, mais a été supprimé depuis, les bornes sont classés dans la catégorie de type E 50.
+    Type G - Panneaux de position des passages à niveau (10 signaux)
+    Type H - Panneaux d'information (10 panneaux)
+    Type ID - Idéogrammes, emblèmes et logotypes (101 panneaux3)
+    Type J - Balises (13 signaux)
+    Type AK, K, KC et KD - Panneaux de signalisation temporaire (35 panneaux)
+    Type M - Panneaux additionnels ou panonceaux (59 panneaux)
+    Type R - Feux et signaux lumineux (15 signaux)
+    Type SE - Symboles (37 signaux)
+    Type SR - Panneaux d’information de sécurité routière (4 panneaux)1.
+    Type X - Signal spécifique à la signalisation dynamique
