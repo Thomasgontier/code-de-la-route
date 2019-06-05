@@ -4,7 +4,7 @@
 
 /* general */
 html {
-   height: 280%;
+   height: auto;
    background-image: url(images/14986_bis.jpg);
    /*  <a href="https://fr.freepik.com/photos-vecteurs-libre/fond">Fond vecteur créé par starline - fr.freepik.com</a>  */
    background-attachment: fixed;
@@ -54,6 +54,10 @@ header {
    display: hidden;
    width: 40px;
    height: 40px;
+}
+
+#menu_span {
+   display: none;
 }
 
 a:hover#menu-icon {
@@ -107,9 +111,9 @@ header ul li ul li:hover {
    background-image: url(images/910CV38t5XL._SL1500_bis.jpg);
    background-repeat: no-repeat;
    background-attachment: fixed;
-   width: 72%;
+   width: 70%;
    margin: auto;
-   height: 100%;
+   height: auto;
    overflow: hidden;
    display: flex;
    flex-wrap: wrap;
@@ -119,7 +123,7 @@ header ul li ul li:hover {
 
 .block_accueil {
    width: 40%;
-   height: 55em;
+   height: 57em;
    margin: 1em;
    padding: 1em;
    background-color: rgba(119, 119, 119, 0.8);
@@ -127,6 +131,7 @@ header ul li ul li:hover {
    overflow: hidden;
    box-shadow: 7px 7px 7px black;
 }
+
 
 .block_accueil h2 {
    text-align: center;
@@ -327,7 +332,7 @@ li ul li {
 
 
    html {
-      height: 720%;
+      height: auto;
    }
 
    /* Menu  */
@@ -419,7 +424,7 @@ li ul li {
 
 
    html {
-      height: 550%;
+      height: auto;
    }
 
    /* Menu  */
@@ -477,6 +482,10 @@ li ul li {
    .menu ul:hover li{
       font-size: 1em;
    }
+   
+   #menu_span {
+   display: inline;
+}
 
 
    #logo1 {
