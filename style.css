@@ -366,6 +366,7 @@ li ul li {
 
    /* grand conteneur */
    .conteneur_global {
+      height: auto;
       width: 95%;
       display: flex;
       flex-direction: column;
@@ -374,7 +375,7 @@ li ul li {
 
    .block_accueil {
       width: 85%;
-      height: 70em;
+      height: auto;
       margin: 8em 1em 1em 1em;
       display: flex;
       flex-direction: column;
@@ -394,7 +395,7 @@ li ul li {
    }
 
    .haut_page {
-      bottom: 30px;
+      bottom: 50px;
       right: 5px;
    }
 
