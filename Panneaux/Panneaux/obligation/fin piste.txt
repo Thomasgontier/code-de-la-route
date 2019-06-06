@@ -1,0 +1,1 @@
+Le panneau de fin d'obligation de piste ou bande cyclable est représenté par le même signal barré d'une ligne rouge oblique. Il est codé B40. 

@@ -1,0 +1,743 @@
+* {
+   font-family: 'Crete Round', serif;
+}
+
+/* general */
+html {
+   height: 120%;
+   background-image: url(images/14986_bis.jpg);
+   /*  <a href="https://fr.freepik.com/photos-vecteurs-libre/fond">Fond vecteur créé par starline - fr.freepik.com</a>  */
+   background-attachment: fixed;
+}
+
+body {
+
+   background-repeat: no-repeat;
+   height: 100%;
+}
+
+h1 {
+   font-size: 3em;
+   text-shadow: 3px 3px 3px #777;
+}
+
+.haut_page {
+   position: fixed;
+   bottom: 60px;
+   right: 60px;
+}
+
+.haut_page img:hover {
+   width: 4em;
+}
+
+figcaption {
+   margin-top: 2em;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+/* Header */
+header {
+   color: black;
+   text-align: center;
+   width: 100%;
+   margin: auto;
+   margin-bottom: 4em;
+}
+
+#menu-icon {
+
+   display: hidden;
+   width: 40px;
+   height: 40px;
+}
+
+#menu_span {
+   display: none;
+}
+
+a:hover#menu-icon {
+   border-radius: 4px 4px 0 0;
+}
+
+header nav {
+   display: none;
+}
+
+header ul {
+   margin: 0;
+   padding: 0;
+}
+
+header ul li {
+   background-image: -webkit-linear-gradient(top, #FFD101 0%, #333A40 100%);
+   box-shadow: 3px 3px 3px #777;
+   border: solid 1px #333A40;
+   display: inline-block;
+   width: 12%;
+   height: 2em;
+   padding-top: 0.5em;
+}
+
+header ul li:hover ul {
+   display: block;
+   width: 15%;
+   text-align: center;
+}
+
+header ul li ul {
+   position: absolute;
+   width: 200px;
+   display: none;
+}
+
+header ul li ul li {
+   background: #444;
+   display: block;
+   width: 100%;
+}
+
+header ul li ul li:hover {
+   background: #666;
+}
+
+
+/* grand conteneur */
+.conteneur_global {
+   background-image: url(images/910CV38t5XL._SL1500_bis.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   width: 72%;
+   margin: auto;
+   margin-top: 5em;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   height: auto;
+}
+
+.block_accueil {
+   width: 40%;
+   height: auto;
+   margin: 1em 1em 1em -3em;
+   padding: 1em;
+   background-color: rgba(119, 119, 119, 0.8);
+   color: white;
+   overflow: hidden;
+   box-shadow: 7px 7px 7px black;
+}
+
+.block_accueil h1 {
+   text-shadow: 2px 2px 2px white;
+}
+
+.block_accueil h2 {
+   text-align: center;
+}
+
+.block_accueil figure,
+figcaption {
+   margin-top: 5em;
+}
+
+.block_accueil a:hover {
+   color: black;
+   font-size: 1.2em;
+   font-weight: bold;
+}
+
+.float_img {
+   float: left;
+   margin: 0 0.4em 0 0;
+}
+
+#logo1 {
+   float: left;
+   margin: -8em 0 0 2em;
+   width: 10.2%;
+}
+
+article p iframe {
+   margin-top: -1em;
+}
+
+.block_accueil article {
+   width: 100%;
+   height: 15em;
+   background-color: rgba(255, 255, 255, 0.2);
+   box-shadow: 5px 5px 5px #555;
+}
+
+.block_accueil p {
+   text-align: justify;
+}
+
+/* menu déroulant */
+#liste_deroulante {
+   padding: 10;
+   margin: 0.89m 0 0 -1.3em;
+   list-style: none;
+   text-align: center;
+   width: 10%;
+   min-width: 100px;
+   float: left;
+   position: fixed;
+}
+
+#liste_deroulante ul {
+   padding: 0;
+   margin: 10;
+   list-style: none;
+   text-align: center;
+}
+
+#liste_deroulante li {
+   background-image: -webkit-linear-gradient(top, #FFD101 0%, #333A40 100%);
+   border-radius: 0px;
+   margin-bottom: 0px;
+   box-shadow: 3px 3px 3px #777;
+   border: solid 1px #333A40;
+}
+
+#liste_deroulante li li {
+   max-height: 0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius: 0;
+   background: #444;
+   box-shadow: none;
+   border: none;
+   margin: 0
+}
+
+#liste_deroulante a {
+   display: block;
+   text-decoration: none;
+   color: #fff;
+   padding: 8px 0;
+   font-family: 'Crete Round', serif;
+   font-size: 1.2em;
+}
+
+#liste_deroulante ul li a,
+#liste_deroulante li:hover li a {
+   font-size: 1em;
+}
+
+#liste_deroulante li:hover {
+   background: #999;
+}
+
+#liste_deroulante li li:hover {
+   background: #999;
+}
+
+#liste_deroulante ul li:last-child {
+
+   border: none;
+}
+
+#liste_deroulante li:hover li {
+   max-height: 15em;
+}
+
+/* Page Dangers */
+
+.page_dangers img {
+   width: 225px;
+   height: 215px;
+   box-shadow: 8px 8px 8px black;
+}
+
+.page_dangers figure img {
+   -webkit-transform: scale(1.2);
+   transform: scale(1.2);
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+}
+
+.page_dangers figure:hover img {
+   -webkit-transform: scale(1.4);
+   transform: scale(1.4);
+}
+
+.page_dangers {
+   width: 82%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.page_dangers figcaption {
+   text-align: center;
+   font-size: 1.9em;
+   position: absolute;
+   top: -20%;
+   margin-left: 20%;
+}
+
+.page_dangers figure {
+   position: relative;
+}
+
+/* Page alcool */
+
+.page_alcool {
+   text-align: center;
+   width: 141%;
+   margin-left: -27%;
+}
+
+.page_alcool iframe {
+   box-shadow: 8px 8px 8px black;
+}
+
+.page_alcool li {
+   list-style: none;
+}
+
+.page_alcool a {
+   color: yellow;
+}
+
+/* Page drogue */
+
+.page_drogue {
+   text-align: center;
+   width: 141%;
+   margin-left: -27%;
+}
+
+.page_drogue iframe {
+   box-shadow: 8px 8px 8px black;
+}
+
+.page_drogue ul {
+   list-style: none;
+}
+
+/* Page vitesse */
+.page_vitesse {
+   text-align: center;
+   width: 141%;
+   margin-left: -27%;
+}
+
+.page_vitesse iframe {
+   box-shadow: 8px 8px 8px black;
+}
+
+.page_vitesse ul {
+   list-style: none;
+}
+
+/* Page téléphone */
+.page_telephone {
+   text-align: center;
+   width: 141%;
+   margin-left: -27%;
+}
+
+.page_telephone iframe {
+   box-shadow: 8px 8px 8px black;
+}
+
+.page_telephone ul {
+   list-style: none;
+}
+
+/* Page code */
+
+/* Page contact */
+.page_contact {
+   text-align: center;
+   width: 238%;
+   margin-left: -79%;
+}
+
+.page_contact input[type="text"],
+input[type="email"] {
+   width: 37%;
+   text-align: center;
+}
+
+.page_contact input,
+textarea {
+   box-shadow: 8px 8px 8px black;
+}
+
+
+/* Footer */
+#footer {
+   height: 2em;
+   display: flex;
+   justify-content: space-around;
+}
+
+.element {
+   display: inline-block;
+   color: white;
+   background-image: url(images/pneu_mini2_bis.png);
+   padding: 1em;
+   padding-bottom: 1.7em;
+   width: 9em;
+   border-radius: 50em 50em 0 0;
+   text-align: center;
+}
+
+#footer li {
+   display: inline-block;
+}
+
+#footer a:hover {
+   color: #FFD101;
+}
+
+.img_lien {
+   padding: 0;
+}
+
+li ul li {
+   line-height: 1em;
+}
+
+.reseaux {
+   display: flex;
+   justify-content: space-around;
+   margin-right: 2.5em;
+}
+
+
+/* Animation CSS */
+
+.anim {
+   animation-duration: 2s;
+   animation-name: slidein;
+}
+
+
+@keyframes slidein {
+   from {
+      margin-left: 100%;
+      width: 300%;
+   }
+
+   75% {
+      font-size: 200%;
+      margin-left: 25%;
+      width: 150%;
+   }
+
+   to {
+      margin-left: 0%;
+      width: 100%;
+   }
+}
+
+/* responsive design */
+@media all and (max-width: 1024px) {
+   * {
+      font-size: 1em;
+   }
+
+   header {
+      position: fixed;
+      height: 7em;
+      background-color: #FFD101;
+      margin-top: -5em;
+   }
+
+   header nav {
+      margin-right: 1em;
+   }
+
+   .anim {
+      animation-name: none;
+   }
+
+
+   html {
+      height: auto;
+   }
+
+   /* Menu  */
+
+   #liste_deroulante {
+      display: none;
+   }
+
+   header nav {
+      display: block;
+      margin-top: 3.1em;
+   }
+
+   header nav ul {
+      transform: skewX(-30deg);
+   }
+
+   #logo1 {
+      display: none;
+   }
+
+   header div h1 {
+      font-size: 2em;
+   }
+
+   h2 {
+      font-size: 1.5em;
+   }
+
+   /* grand conteneur */
+   .conteneur_global {
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .block_accueil {
+      width: 90.5%;
+      height: auto;
+      margin: 8em 1em 1em 1em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+   }
+
+   .block_accueil article {
+      height: 24em;
+   }
+
+   .block_accueil article p iframe {
+      height: 250px;
+   }
+
+   .page_dangers {
+      display: grid;
+      grid-template-columns: 250px 250px;
+   }
+
+   .page_alcool iframe {
+      width: 100%;
+      height: 35%;
+      margin-top: -35%;
+   }
+
+   .page_alcool ul {
+      margin-top: -35%;
+   }
+
+   .page_drogue iframe {
+      width: 100%;
+      height: 35%;
+      margin-top: -35%;
+   }
+
+   .page_drogue ul {
+      margin-top: -30%;
+   }
+
+   .page_vitesse iframe {
+      width: 100%;
+      height: 35%;
+      margin-top: -35%;
+   }
+
+   .page_vitesse ul {
+      margin-top: -40%;
+   }
+
+   .page_telephone iframe {
+      width: 100%;
+      height: 35%;
+      margin-top: -35%;
+   }
+
+   .page_telephone ul {
+      margin-top: -35%
+   }
+
+   .page_contact form {
+      margin-bottom: 80%;
+   }
+
+   .page_contact input[type="text"],
+   input[type="email"] {
+      width: 96%;
+      text-align: center;
+   }
+
+   .reseaux {
+      margin-right: 5em;
+   }
+
+   .haut_page {
+      bottom: 30px;
+      right: 5px;
+   }
+
+   .haut_page img {
+      width: 3em;
+   }
+
+}
+
+@media all and (max-width: 720px) {
+   * {
+      font-size: 0.9em;
+   }
+
+   header {
+      position: fixed;
+      height: 7em;
+      background-color: #FFD101;
+      margin-top: -1em;
+   }
+
+   header nav {
+      margin-right: 1.5em;
+   }
+
+   .anim {
+      animation-name: none;
+   }
+
+
+   html {
+      height: auto;
+   }
+
+   /* Menu  */
+
+   #liste_deroulante {
+      display: none;
+   }
+
+   header nav {
+      display: none;
+   }
+
+
+   .menu {
+      background-image: url(images/menu-icon.png);
+      background-position: right;
+      background-repeat: space;
+      float: right;
+   }
+
+   #menu-icon {
+      display: block;
+      width: 1em;
+      height: 1.5em;
+      font-size: 6em;
+      z-index: 999;
+   }
+
+   .menu ul {
+      display: block;
+      position: absolute;
+      padding: 10px;
+      background: #fff;
+      border: 3px solid #444;
+      right: 23px;
+      top: 105px;
+      width: 50%;
+      border-radius: 10px 0 0px 10px;
+
+   }
+
+   .menu li {
+
+      text-align: center;
+      width: 100%;
+      padding: 10px 0;
+      margin: 0;
+      overflow: hidden;
+   }
+
+   .menu:hover #liste_deroulante {
+      display: block;
+   }
+
+   .menu ul:hover li {
+      font-size: 1em;
+   }
+
+   #menu_span {
+      display: inline;
+   }
+
+   #logo1 {
+      display: none;
+   }
+
+   header div h1 {
+      font-size: 1.8em;
+      margin-right: 1em;
+   }
+
+   header div p {
+      margin-right: 2em;
+   }
+
+   header div {
+      width: 100%;
+      text-align: center;
+   }
+
+   /* grand conteneur */
+   .conteneur_global {
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+      /*      align-items: center;*/
+      justify-content: space-evenly;
+   }
+
+   .block_accueil {
+      width: 85%;
+      height: auto;
+      margin: 8em 1em 1em 1em;
+   }
+
+
+   .block_accueil article {
+      height: 24em;
+   }
+
+   .block_accueil article p iframe {
+      height: 180px;
+   }
+
+   .reseaux {
+      margin-right: 5em;
+   }
+
+   .haut_page {
+      bottom: 30px;
+      right: 5px;
+   }
+
+   .haut_page img {
+      width: 3em;
+   }
+
+   .page_dangers figure img {
+      width: 200px;
+      height: 185px;
+   }
+
+   .page_dangers figcaption {
+      margin-left: 40%;
+      margin-top: 40%;
+   }
+
+   .page_dangers {
+      display: flex;
+   }
+
+}

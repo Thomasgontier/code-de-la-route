@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dangers.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Crete+Round');
+    </style>
+    <title>APDSR Bienvenue sur notre site de prévention</title>
+</head>
+
+<body>
+    <header>
+        <div class="anim">
+            <h1>Contact</h1>
+        </div>
+        <img src="images/even-Securite-Routiere.jpg" id="logo1" alt="logo sécurité routière">
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Accueil">Accueil</a></li>
+                <li><a href="#" title="Panneaux">Panneaux</a></li>
+                <li><a href="les_dangers.html" title="Dangers">Dangers</a></li>
+                <li><a href="#" title="Permis">Permis</a></li>
+                <li><a href="code.html" title="Réviser le code">Le code</a></li>
+                <li><a href="#" title="Annuaire">Annuaire</a></li>
+                <li><a href="contact.html" title="Contacts">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a class="haut_page" href="#">
+        <img src="images/up-arrow.png" width="60em">
+    </a>
+    <nav class="menu">
+      <a href="#" id="menu-icon"></a>
+        <ul id="liste_deroulante">
+            <li><a href="index.html">Accueil</a>
+            </li>
+            <li><a href="#">Panneaux</a>
+            </li>
+            <li><a href="les_dangers.html">Dangers</a>
+            </li>
+            <li><a href="#">Permis</a>
+            </li>
+            <li><a href="code.html">Le code</a>
+            </li>
+            <li><a href="#">Annuaire</a>
+            </li>
+            <li><a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="conteneur_global">
+        <!-- c'est ici que l'on va mettre le contenu du site -->
+
+        <div id="contact">
+            <section class="block_accueil page_contact">
+
+                <h1>Contact</h1>
+
+                <form action="envoidemonformulaire.php" method="post">
+                    <label for="nom"> Nom : </label><br> <input type="text" name="nom" placeholder="Quel est votre nom ?" required><br><br>
+
+                    <label for="prenom"> Prénom : </label><br> <input type="text" name="prenom" placeholder="Quel est votre prénom ?" required><br><br>
+
+                    <label for="email">Email : </label><br> <input type="email" name="email" placeholder="Quel est votre email ?" required><br><br>
+
+                    <label for="message">Votre message</label><br>
+                    <textarea name="message" id="message" rows="10" cols="50"></textarea><br><br>
+                    <div class="bouton">
+                        <input type="submit" value="Envoyer" />
+                        <input type="submit" value="Annuler" />
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <nav>
+            <ul id="footer">
+                <li class="element">C&oslash;pyright APDSR</li>
+                <li class="element">
+                    <a href="#" title="Cliquez pour voir les mentions légales">Mention légales</a>
+                </li>
+                <li class="element">
+                    <ul class="reseaux">
+                        <li class="reseaux">
+                            <a href="https://www.facebook.com/" title="lien vers Facebook" target="_blank" class="img_lien">
+                                <img src="images/facebook.png" alt="Facebook" width="20px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/" title="lien vers Twitter" target="_blank">
+                                <img src="images/twitter.png" alt="Facebook" width="20px" class="img_lien">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body></html>
