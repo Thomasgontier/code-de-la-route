@@ -56,6 +56,10 @@ header {
     height: 40px;
 }
 
+#menu_span {
+    display: none;
+}
+
 a:hover#menu-icon {
     border-radius: 4px 4px 0 0;
 }
