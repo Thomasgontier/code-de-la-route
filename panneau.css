@@ -56,10 +56,6 @@ header {
     height: 40px;
 }
 
-#menu_span {
-    display: none;
-}
-
 a:hover#menu-icon {
     border-radius: 4px 4px 0 0;
 }
@@ -139,6 +135,16 @@ header ul li ul li:hover {
     color: blue;
 }
 
+#table{display: grid;
+;grid-gap: 15px 30px;grid-template-rows: 10% 50% 40%;
+    justify-content: flex-start;
+}
+
+
+figcaption {
+    margin-bottom: 3em;
+}
+
 .block_panneaux a:focus {
     color: red;
 }
@@ -150,7 +156,7 @@ header ul li ul li:hover {
 }
 
 .block_panneaux figure {
-    margin-bottom: -5em;
+    margin-bottom: -4em;
     text-align: left;
     display: flex;
     flex-flow: column wrap;
@@ -161,24 +167,23 @@ header ul li ul li:hover {
 
 
 }
-
+.texte {margin-bottom: 2em;}
 .block_panneaux figcaption {
     display: flex;
     text-align: center;
     justify-content: space-around;
 }
-
+#table article{margin-bottom: 1em;}
 .block_panneaux .im {
     max-width: 40%;
     height: auto;
 }
 
-/*
-.texte {
-    margin: center;
-    
-}
-*/
+#table {display: grid;
+
+    grid-template-columns: 10% 20% 60%;
+    flex-flow: row wrap;}
+
 .block_accueil {
     width: 40%;
     height: 58em;
