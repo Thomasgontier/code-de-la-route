@@ -351,6 +351,15 @@ article p iframe {
 }
 
 /* Page code */
+.page_code {
+   height: auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.page_code iframe {
+   margin-top: 5em;
+}
 
 /* Page contact */
 .page_contact {
@@ -738,6 +747,12 @@ li ul li {
 
    .page_dangers {
       display: flex;
+   }
+
+   /* Page code */
+   .page_code iframe {
+      margin-top: 1em;
+      width: 380px
    }
 
 }
