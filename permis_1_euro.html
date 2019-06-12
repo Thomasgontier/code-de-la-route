@@ -35,6 +35,17 @@
             background-color: #FFD101;
             color: black;
         }
+         @media all and (max-width: 720px) {
+            aside{
+                display: none;
+            }
+            .conteneur_global {
+                width: 90%;
+            }
+            footer nav {
+                display: flex;
+                justify-content: space-between;
+            }
 
     </style>
 </head>
@@ -43,7 +54,7 @@
     <header>
         <div class="anim">
             <h1>Permis à 1 euros</h1>
-            <p>Association de Prévention des Dangers et Sécurité de la Route.</p>
+            <p>L'association de Prévention des Dangers et Sécurité de la Route.</p>
         </div>
         <img src="images/even-Securite-Routiere.jpg" id="logo1" alt="logo sécurité routière">
         <nav>
@@ -64,11 +75,15 @@
     </a>
     <nav class="menu">
         <a href="#" id="menu-icon"></a>
-        <ul id="liste_deroulante"><span id="menu_span">menu</span>
+        <ul id="liste_deroulante">menu
             <li><a href="index.html" title="Accueil">Accueil</a></li>
+
             <li><a href="panneaux.html" title="Panneaux">Panneaux</a></li>
+
             <li><a href="les_dangers.html" title="Dangers">Dangers</a></li>
+
             <li><a href="liste_permis.html" title="Permis">Permis</a></li>
+
             <li><a href="code.html" title="Réviser le code">Le code</a></li>
             <li><a href="annuaire.html" title="Annuaire">Annuaire</a></li>
             <li><a href="contact.html" title="Contacts">Contact</a></li>

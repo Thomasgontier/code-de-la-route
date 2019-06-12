@@ -706,7 +706,12 @@ li ul li {
    .haut_page img {
       width: 3em;
    }
-    /*page dangers*/
+
+   footer nav {
+      display: flex;
+      justify-content: space-between;
+   }
+
    .page_dangers figure img {
       width: 200px;
       height: 185px;
