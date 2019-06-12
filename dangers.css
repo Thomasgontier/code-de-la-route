@@ -383,9 +383,9 @@ input[type="email"] {
 textarea {
    box-shadow: 8px 8px 8px black;
 }
-
+/* page mentions */
 .page_mentions {
-    width: auto;
+    width: 85%;
     height: auto;
 }
 
