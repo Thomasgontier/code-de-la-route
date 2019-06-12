@@ -172,6 +172,9 @@ article p iframe {
 .block_accueil p {
    text-align: justify;
 }
+.page_mentions {
+    width: auto;
+}
 
 /* menu déroulant */
 #liste_deroulante {

@@ -180,6 +180,7 @@ article p iframe {
    text-align: justify;
 }
 
+
 /* menu déroulant */
 #liste_deroulante {
    padding: 10;
@@ -381,6 +382,11 @@ input[type="email"] {
 .page_contact input,
 textarea {
    box-shadow: 8px 8px 8px black;
+}
+
+.page_mentions {
+    width: auto;
+    height: auto;
 }
 
 
@@ -763,6 +769,10 @@ li ul li {
     .page_telephone li {
         font-size: 1.5em;
         margin-right: 20%;
+    }
+    
+    .page_mentions {
+        height: auto;
     }
 
 }
