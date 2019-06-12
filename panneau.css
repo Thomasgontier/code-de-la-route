@@ -631,4 +631,9 @@ li ul li {
         width: 3em;
     }
 
+   footer nav {
+      display: flex;
+      justify-content: space-between;
+   }
+
 }
