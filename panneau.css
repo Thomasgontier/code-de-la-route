@@ -57,7 +57,7 @@ header {
 }
 
 #menu_span {
-   display: none;
+    display: none;
 }
 
 a:hover#menu-icon {
@@ -134,13 +134,15 @@ header ul li ul li:hover {
     color: white;
 
 }
-
+.block_panneaux img {margin-top: 15px;
+    max-width: 80%;
+}
 .block_panneaux a {
     color: blue;
 }
 
 #table{display: grid;
-;grid-gap: 15px 30px;grid-template-rows: 10% 50% 40%;
+;grid-gap: 15px 10px;grid-template-rows: 10% 30% 30%;
     justify-content: flex-start;
 }
 
