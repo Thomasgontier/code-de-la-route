@@ -7,14 +7,6 @@
     <title>Sécurité routière : Annuaire</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        @media all and (max-width: 720px){
-            section aside{
-                width: 100%;
-                font-size: 2em;
-                 
-            }
-            
-        }
         .conteneur_global {
             width: 75%;
             height: auto;
@@ -33,15 +25,20 @@
             flex-wrap: nowrap;
         }
 
-
-        .auto_img {
-            width: 10%
+        .inf_auto_ecole {
+            display: grid;
+            grid-template-columns: auto 40% 30%;
         }
-         
 
-        
+
+        .auto_img img {
+            width: 100%;
+            height: 300px;
+        }
+
+
+
         aside {
-            width: 25%;
             letter-spacing: 1px;
             padding-left: .5rem;
             margin-left: .5rem;
@@ -51,7 +48,7 @@
             color: white;
         }
 
-        a {    
+        a {
             color: #ffd101;
         }
 
@@ -67,8 +64,36 @@
             font-size: 3em;
         }
         
+        #footer li a, header nav ul li a {
+            color: white;
+        }
 
-       
+        @media all and (max-width: 720px) {
+
+            .conteneur_global {
+                width: 90%;
+            }
+            
+            .block_accueil {
+                width: 80%;
+            }
+            
+            .inf_auto_ecole {
+                display: flex;
+                flex-direction: column;
+            }
+
+            section aside {
+                width: 100%;
+                font-size: 2em;
+            }
+            
+            iframe {
+                width: 100%;
+            }
+
+        }
+
     </style>
 </head>
 
@@ -132,9 +157,10 @@
                     <span class="auto_img"><img src="image_auto-ecole/rsz_auto_ecole_kicks.PNG" alt="auto-école_Rame"></span>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.062081487316!2d1.6387011802096718!3d50.51441167958472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ddd01228c1a61d%3A0x63539df2647ae751!2s26+Rue+Maurice+Rapha%C3%ABl%2C+62630+%C3%89taples!5e0!3m2!1sfr!2sfr!4v1558440730831!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
+
             </section>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
                     <aside>
 
                         -AUTO ECOLE MERLAUD PERMIS MOTO <br>
@@ -143,11 +169,12 @@
                         Téléphone : 03 21 94 64 70<br>
                         <a href="https://fr-fr.facebook.com/pages/category/Driving-School/Auto-%C3%A9cole-Merlaud-1597541093694571/">lien vers le facebook</a>
                     </aside>
-                    <span class="auto_img"><img src="image_auto-ecole/rsz_auto_ecole_Merlaud.PNG" alt="auto_ecole_merlaud"></span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.9825670190767!2d1.6320959802097421!3d50.51589117958488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ddd06cc386bce5%3A0x8cc99a7aeedacae5!2s96+Rue+de+Rosamel%2C+62630+%C3%89taples!5e0!3m2!1sfr!2sfr!4v1558440895873!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </span>
+                    <span class="auto_img"><img src="image_auto-ecole/rsz_auto_ecole_Merlaud.PNG" alt="auto_ecole_merlaud"></span>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.9825670190767!2d1.6320959802097421!3d50.51589117958488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ddd06cc386bce5%3A0x8cc99a7aeedacae5!2s96+Rue+de+Rosamel%2C+62630+%C3%89taples!5e0!3m2!1sfr!2sfr!4v1558440895873!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </section>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
                     <aside>
 
                         -OPAL CONDUITE <br>
@@ -160,11 +187,11 @@
                     <span class="auto_img"><img src="image_auto-ecole/rsz_opale_conduite.png" alt="auto_ecole_opal_conduite"></span> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.9825670190767!2d1.6320959802097421!3d50.51589117958488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ddd06cc386bce5%3A0x8cc99a7aeedacae5!2s96+Rue+de+Rosamel%2C+62630+%C3%89taples!5e0!3m2!1sfr!2sfr!4v1558440895873!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <br>
 
-                </span>
+                </div>
             </section>
             <h3>Montreuil Sur Mer</h3>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
                     <aside>
 
                         -EDUCAROUTE <br>
@@ -182,10 +209,10 @@
                     </aside>
                     <span class="auto_img"> <img src="image_auto-ecole/rsz_educaroute.PNG" alt="educaroute"></span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.144356623963!2d1.6359447802096225!3d50.512880779584464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ddd01287781fcf%3A0xca456a3da3bf428d!2s12+Rue+d&#39;H%C3%A9rambault%2C+62630+%C3%89taples!5e0!3m2!1sfr!2sfr!4v1558441030642!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br>
 
-                </span>
+                </div>
             </section>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
                     <aside>
 
                         -AUTO ECOLE AE3<br>
@@ -197,11 +224,11 @@
                     <span class="auto_img"> <img src="image_auto-ecole/rsz_AE3.PNG" alt="auto_ecole_AE3"></span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.9246567320356!2d1.757141980207813!3d50.461127679577245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ddc67d19253e35%3A0x578403e37ece596a!2s13+Place+du+G%C3%A9n%C3%A9ral+de+Gaulle%2C+62170+Montreuil!5e0!3m2!1sfr!2sfr!4v1558441178991!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-                </span>
+                </div>
             </section>
             <h3>Berck</h3>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
 
                     <aside>
                         -COLOR CONDUITE<br>
@@ -220,10 +247,10 @@
                     </aside>
                     <span class="auto_img"> <img src="image_auto-ecole/rsz_color_conduite.PNG" alt="auto_ecole_color_conduite"></span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.820011441396!2d1.5774716802059343!3d50.40719187957004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dddc12ff412f55%3A0xec0a1bf8ca802979!2s241+Rue+de+l&#39;Imp%C3%A9ratrice%2C+62600+Berck!5e0!3m2!1sfr!2sfr!4v1558441229410!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-                </span>
+                </div>
             </section>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
                     <aside>
 
                         -AUTO ECOLE Dérollez michel<br>
@@ -240,15 +267,16 @@
                     </aside>
                     <span class="auto_img"> <img src="image_auto-ecole/rsz_derollez.PNG" alt="auto_ecole_derollez"></span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.8600688784586!2d1.5663022802059132!3d50.40644537956995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dddc1a4f437c71%3A0x9499cfa2c43a75a5!2s36+Rue+Gabriel+P%C3%A9ri%2C+62600+Berck!5e0!3m2!1sfr!2sfr!4v1558441289243!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br>
 
-                </span>
+                </div>
             </section>
             <h3>Hesdin</h3>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
                     <aside>
                         AUTO ECOLE JACKIE<br>
                         Adresse : 18 Rue Jacquemont, 62140 Hesdin<br>
                         Formation AAC.BSR.MOTO.REMORQUE.<br>
+                        Téléphone : 03 21 86 78 03<br>
                         <span class="horaires"> Horaires :<br>
                             mardi de 09:00 à 20:00<br>
                             mercredi de 09:00 à 20:00<br>
@@ -257,14 +285,14 @@
                             samedi de 09:00 à 20:00<br>
                             dimanche Fermé<br>
                             lundi de 09:00 à 20:00<br></span>
-                        Téléphone : 03 21 86 78 03<br>
                         <a href="https://www.facebook.com/pg/Action-AUTO-ECOLE-JACKY-368491813316253/posts/">lien vers le facebook de cette auto-école.</a>
                     </aside>
-                    <span class="auto_img"> <img src="image_auto-ecole/rsz_JACKIES_HEH.PNG" alt="auto_ecole_jackie"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.6641696844385!2d2.0364636802047005!3d50.372816279565235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dda327969fac33%3A0xc2253f8c741f800b!2s18+Rue+Jacquemont%2C+62140+Hesdin!5e0!3m2!1sfr!2sfr!4v1558441395148!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></span>
-                </span>
+                    <span class="auto_img"> <img src="image_auto-ecole/rsz_JACKIES_HEH.PNG" alt="auto_ecole_jackie"></span>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.6641696844385!2d2.0364636802047005!3d50.372816279565235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dda327969fac33%3A0xc2253f8c741f800b!2s18+Rue+Jacquemont%2C+62140+Hesdin!5e0!3m2!1sfr!2sfr!4v1558441395148!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </section>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
                     <aside>
 
                         AUTO-ECOLE BRUNO<br>
@@ -283,10 +311,10 @@
                     </aside>
                     <span class="auto_img"> <img src="image_auto-ecole/rsz_auto_ecole_bruno.PNG" alt="auto_ecole_bruno"></span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.7558987527373!2d2.033912880204665!3d50.37110597956495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dda2d7fa691e6d%3A0xdcd3f8b43996cd8b!2s11+Avenue+de+Sainte-Austreberthe%2C+62140+Hesdin!5e0!3m2!1sfr!2sfr!4v1558441460394!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-                </span>
+                </div>
             </section>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
                     <aside>
                         Anne-Sophie Auto-Ecole <br>
                         Adresse : 6 Rue André Fréville, 62140 Hesdin<br>
@@ -294,10 +322,10 @@
                     </aside>
                     <span class="auto_img"> <img src="image_auto-ecole/rsz_auto_ecole_anne_soophie.PNG" alt="auto_ecole_anne_sophie"></span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.6951914508427!2d2.034373680204711!3d50.37223787956518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dda328064effff%3A0xf10e3e5672bc9084!2s6+Rue+Andr%C3%A9+Fr%C3%A9ville%2C+62140+Hesdin!5e0!3m2!1sfr!2sfr!4v1558441518141!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br>
 
-                </span>
+                </div>
             </section>
             <section>
-                <span class="inf_auto_ecole">
+                <div class="inf_auto_ecole">
                     <aside>
 
                         Auto Ecole Fabien <br>
@@ -307,11 +335,11 @@
                     </aside>
                     <span class="auto_img"> <img src="image_auto-ecole/rsz_auto_ecole_Fabien.PNG" alt="auto_ecole_fabien"></span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.2378914933274!2d1.875868280205652!3d50.39940397956884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ddbf239af7731b%3A0xe1d61ea539519499!2s315+Rue+Daniel+Ranger%2C+62870+Campagne-l%C3%A8s-Hesdin!5e0!3m2!1sfr!2sfr!4v1558441577951!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-                </span>
+                </div>
             </section>
         </section>
     </div>
-<footer>
+    <footer>
         <nav>
             <ul id="footer">
                 <li class="element">C&oslash;pyright APDSR</li>
