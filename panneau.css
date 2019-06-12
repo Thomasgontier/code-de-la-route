@@ -144,13 +144,7 @@ header ul li ul li:hover {
     color: blue;
 }
 
-#table {
-    display: grid;
-    ;
-    grid-gap: 15px 10px;
-    grid-template-rows: 10% 30% 30%;
-    justify-content: flex-start;
-}
+
 
 
 figcaption {
@@ -191,7 +185,6 @@ figcaption {
 }
 
 #table article {
-    grid-auto-rows: auto;
     margin-bottom: 1em;
 }
 
@@ -202,8 +195,9 @@ figcaption {
 
 #table {
     display: grid;
+    grid-gap: 15px 5px;
     grid-template-rows: auto;
-    grid-template-columns: 10% 20% 60%;
+    grid-template-columns: 10% 30% 60%;
     flex-flow: row wrap;
 }
 
