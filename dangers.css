@@ -386,6 +386,7 @@ textarea {
 
 .page_mentions {
     width: auto;
+    height: auto;
 }
 
 
@@ -768,6 +769,10 @@ li ul li {
     .page_telephone li {
         font-size: 1.5em;
         margin-right: 20%;
+    }
+    
+    .page_mentions {
+        height: auto;
     }
 
 }
