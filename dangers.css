@@ -49,6 +49,9 @@ header {
    margin-bottom: 4em;
    z-index: 900;
 }
+.menu ul {
+    z-index: 999;
+}
 
 #menu-icon {
 
@@ -456,7 +459,7 @@ li ul li {
 
    header {
       position: fixed;
-      height: 7em;
+      height: auto;
       background-color: #FFD101;
       margin-top: -5em;
    }
@@ -530,46 +533,9 @@ li ul li {
       display: grid;
       grid-template-columns: 250px 250px;
    }
-
-   .page_alcool iframe {
-      width: 100%;
-      height: 35%;
-      margin-top: -35%;
-   }
-
-   .page_alcool ul {
-      margin-top: -35%;
-   }
-
-   .page_drogue iframe {
-      width: 100%;
-      height: 35%;
-      margin-top: -35%;
-   }
-
-   .page_drogue ul {
-      margin-top: -30%;
-   }
-
-   .page_vitesse iframe {
-      width: 100%;
-      height: 35%;
-      margin-top: -35%;
-   }
-
-   .page_vitesse ul {
-      margin-top: -40%;
-   }
-
-   .page_telephone iframe {
-      width: 100%;
-      height: 35%;
-      margin-top: -35%;
-   }
-
-   .page_telephone ul {
-      margin-top: -35%
-   }
+    .page_dangers figure img {
+        margin-left: -18%
+    }
 
    .page_contact form {
       margin-bottom: 80%;
@@ -735,10 +701,12 @@ li ul li {
    .haut_page img {
       width: 3em;
    }
-
+    /*page dangers*/
    .page_dangers figure img {
       width: 200px;
       height: 185px;
+       margin-left: 10%;
+       z-index: 900;
    }
 
    .page_dangers figcaption {
@@ -755,5 +723,41 @@ li ul li {
       margin-top: 1em;
       width: 380px
    }
+    /* page alcool */
+    .page_alcool iframe {
+        width: 75vw;
+        height: 30vh;
+    }
+    .page_alcool li {
+        font-size: 1.5em;
+        margin-right: 20%;
+    }
+    /* page drogue */
+    .page_drogue iframe {
+        width: 75vw;
+        height: 30vh;
+    }
+    .page_drogue li {
+        font-size: 1.5em;
+        margin-right: 20%;
+    }
+    /* page vitesse */
+    .page_vitesse iframe {
+        width: 75vw;
+        height: 30vh;
+    }
+    .page_vitesse li {
+        font-size: 1.5em;
+        margin-right: 20%;
+    }
+    /* page telephone et fatigue */
+    .page_telephone iframe {
+        width: 75vw;
+        height: 30vh;
+    }
+    .page_telephone li {
+        font-size: 1.5em;
+        margin-right: 20%;
+    }
 
 }
