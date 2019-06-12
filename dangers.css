@@ -47,6 +47,7 @@ header {
    width: 100%;
    margin: auto;
    margin-bottom: 4em;
+   z-index: 900;
 }
 
 #menu-icon {
